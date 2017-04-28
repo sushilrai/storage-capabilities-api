@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "javaName": "SIONodeRemoveRequestMessage",
+    "description": "This message is the request for sio node removal",
+    "_meta": {
+       "message":"com.dell.cpsd.sio.node.remove.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties": {
+            "$ref":"includes/MessageProperties.jsd"
+       },
+       "sioNodeRemoveData": {
+            "type": "object",
+            "$ref": "includes/SIONodeRemoveData.jsd"
+       },
+       "api_port_number": {
+            "type": "string",
+            "javaName": "apiPortNumber"
+       },
+       "service_port_number": {
+            "type": "string",
+            "javaName": "servicePortNumber"
+       },
+       "user_name": {
+            "type": "string",
+            "javaName": "userName"
+       },
+       "password": {
+            "type": "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "sioNodeRemoveData",
+       "api_port_number",
+       "service_port_number",
+       "user_name",
+       "password"
+    ]
+}

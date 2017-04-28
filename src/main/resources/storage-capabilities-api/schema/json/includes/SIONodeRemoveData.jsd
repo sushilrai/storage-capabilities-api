@@ -1,0 +1,28 @@
+{
+  "type" : "object",
+  "javaName" : "SIONodeRemoveData",
+  "properties" : {
+    "scaleio_interface" : {
+        "type" : "string"
+    },
+    "scaleio_volume_name" : {
+        "type" : "string"
+    },
+    "mdm_hosts" : {
+        "type" : "string"
+    },
+    "sds_hosts": {
+        "type": "string"
+    },
+    "sdc_hosts": {
+        "type": "string"
+    }
+  },
+  "required": [
+    "scaleio_interface",
+    "scaleio_volume_name",
+    "mdm_hosts",
+    "sds_hosts",
+    "sdc_hosts"
+  ]
+}

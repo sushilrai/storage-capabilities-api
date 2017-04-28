@@ -1,0 +1,17 @@
+{
+  "messageProperties": {
+    "timestamp": "2010-01-01T12:00:00Z",
+    "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
+  },
+  "sioNodeRemoveData": {
+    "scaleio_interface": "scaleio_interface",
+    "scaleio_volume_name": "scaleio_volume_name",
+    "mdm_hosts": "mdm_hosts",
+    "sds_hosts": "sds_hosts",
+    "sdc_hosts": "sdc_hosts"
+  },
+  "api_port_number":"12345",
+  "service_port_number": "234567",
+  "user_name": "test_user",
+  "password": "password"
+}
