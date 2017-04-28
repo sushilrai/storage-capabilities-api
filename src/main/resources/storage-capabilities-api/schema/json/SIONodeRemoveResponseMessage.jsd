@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "javaName": "SIONodeRemoveResponseMessage",
+    "description": "This message is the response for sio node removal",
+    "_meta": {
+       "message":"com.dell.cpsd.sio.node.remove.response",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties": {
+            "$ref":"includes/MessageProperties.jsd"
+       },
+       "orderInfo": {
+            "type": "object",
+            "$ref": "includes/OrderInfo.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "orderInfo"
+    ]
+}

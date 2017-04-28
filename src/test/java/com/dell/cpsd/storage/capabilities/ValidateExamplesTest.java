@@ -41,5 +41,14 @@ public class ValidateExamplesTest
         String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
         assertNull(errors, errors);
     }
+
+    @Test
+    public void sio_node_remove_response_message_validation() throws Exception
+    {
+        String jsdName = "SIONodeRemoveResponseMessage";
+        String jsonName = "SIONodeRemoveResponseMessage";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        assertNull(errors, errors);
+    }
 }
 

@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "javaName": "OrderInfo",
+  "extends": {
+    "$ref": "ModelInfo.jsd"
+  },
+  "properties": {
+    "orderNumber": {
+        "type": "string",
+        "description": "Number of this order"
+    },
+    "submittedBy" : {
+        "type": "string",
+        "description": "User who submitted this order"
+    },
+    "service": {
+        "type": "object",
+        "$ref": "Reference.jsd",
+        "description": "Service that this order will execute"
+    },
+    "executionWindow": {
+        "type": "string",
+        "description": "Execution window to run this order in"
+    },
+    "summary": {
+        "type": "string",
+        "description": "Summary for this order"
+    },
+    "message": {
+        "type": "string",
+        "description": "System generated message relating to this order"
+    },
+    "createdDate": {
+        "type": "string",
+        "format": "date-time",
+        "javaType": "java.util.Date",
+        "description": "Date the order was placed"
+    },
+    "dateCompleted": {
+        "type": "string",
+        "format": "date-time",
+        "javaType": "java.util.Date",
+        "description": "Date the order completed"
+    },
+    "status": {
+        "type": "string",
+        "description": "Order Status",
+        "enum": [
+            "PENDING",
+            "EXECUTING",
+            "PARTIAL_SUCCESS",
+            "SUCCESS",
+            "ERROR",
+            "SCHEDULED",
+            "CANCELLED",
+            "APPROVAL",
+            "APPROVED",
+            "REJECTED"
+        ]
+    },
+    "execution": {
+        "type": "object",
+        "$ref": "Reference.jsd",
+        "description": "Reference to the execution information"
+    },
+    "parameters": {
+        "type": "array",
+        "description": "Parameters to an order",
+        "items": {
+            "$ref": "Parameter.jsd"
+        }
+    }
+  },
+  "required": [
+    "orderNumber",
+    "submittedBy",
+    "service",
+    "executionWindow",
+    "summary",
+    "message",
+    "createdDate",
+    "dateCompleted",
+    "status",
+    "execution",
+    "parameters"
+  ]
+}
