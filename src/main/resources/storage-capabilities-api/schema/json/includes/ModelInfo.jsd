@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "javaName": "ModelInfo"
+  },
+  "properties": {
+    "id": {
+        "type": "string"
+    },
+    "inactive" : {
+        "type": "boolean"
+    },
+    "link": {
+        "type": "object",
+        "$ref": "Link.jsd"
+    },
+  },
+  "required": [
+    "id",
+    "inactive",
+    "link"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "messageProperties": {
+    "timestamp": "2010-01-01T12:00:00Z",
+    "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
+  },
+  "orderInfo": {
+    "orderNumber": "orderNumber",
+    "submittedBy": "test_user",
+    "service": {
+        "id": "id_1",
+        "href": "href_1"
+    },
+    "executionWindow": "executionWindow",
+    "summary": "summary",
+    "message": "message",
+    "createdDate": "2010-01-01T12:00:00Z",
+    "dateCompleted": "2010-01-01T12:00:00Z",
+    "status": "EXECUTING",
+    "execution": {
+        "id": "id_1",
+        "href": "href_1"
+    },
+    "parameters": [
+      {
+        "label": "label",
+        "value": "value",
+        "friendlyLabel": "friendlyLabel",
+        "friendlyValue": "friendlyValue",
+        "userInput": true,
+        "encrypted": false
+      }
+    ]
+  }
+}

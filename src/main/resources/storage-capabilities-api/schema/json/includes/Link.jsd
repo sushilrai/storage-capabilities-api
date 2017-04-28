@@ -1,0 +1,16 @@
+{
+  "type" : "object",
+  "javaName" : "Reference",
+  "properties" : {
+    "rel" : {
+        "type" : "string"
+    },
+    "href" : {
+        "type" : "string"
+    }
+  },
+  "required": [
+    "rel",
+    "href"
+  ]
+}

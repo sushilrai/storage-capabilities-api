@@ -1,0 +1,37 @@
+{
+  "type" : "object",
+  "javaName" : "Parameter",
+  "properties" : {
+    "label" : {
+        "type" : "string",
+        "description": "Label or key for this parameter to an order"
+    },
+    "value" : {
+        "type" : "string",
+        "description": "Actual value for this parameter (often times an ID)"
+    },
+    "friendlyLabel" : {
+        "type" : "string"
+    },
+    "friendlyValue": {
+        "type": "string",
+        "description": "User friendly text value representing the choice (often the label)"
+    },
+    "userInput": {
+        "type": "boolean",
+        "default": "true"
+    },
+    "encrypted": {
+        "type": "boolean",
+        "default": "false"
+    }
+  },
+  "required": [
+    "label",
+    "value",
+    "friendlyLabel",
+    "friendlyValue",
+    "userInput",
+    "encrypted"
+  ]
+}
