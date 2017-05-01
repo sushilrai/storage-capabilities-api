@@ -1,16 +1,24 @@
 {
-  "type" : "object",
-  "id" : "MessageProperties.jsd",
-  "properties" : {
-    "timestamp" : {
-      "type" : "object",
-      "$ref" : "Date.jsd"
+  "type": "object",
+  "title": "AMQP properties properties",
+  "description": "AMQP properties.",
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "javaType": "java.util.Date",
+      "title": "Message timestamp",
+      "description": "Message creation timestamp."
     },
-    "correlationId" : {
-      "type" : "string"
+    "correlationId": {
+      "type": "string",
+      "title": "Correlation ID",
+      "description": "Messages chain reference."
     },
-    "replyTo" : {
-      "type" : "string"
+    "replyTo": {
+      "type": "string",
+      "title": "Reply-to identifier.",
+      "description": "Reply-to identifier. Default format is: '<sender-name>.<sender-host>'"
     }
   },
   "required": [

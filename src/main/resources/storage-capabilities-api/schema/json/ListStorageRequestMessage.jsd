@@ -11,7 +11,7 @@
   "properties" : {
     "messageProperties" : {
       "type" : "object",
-      "$ref" : "includes/MessageProperties.jsd"
+      "$ref" : "MessageProperties.jsd"
     },
     "endpoint_url" : {
       "type" : "string"
