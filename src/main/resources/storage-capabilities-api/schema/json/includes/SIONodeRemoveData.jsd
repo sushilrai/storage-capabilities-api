@@ -2,19 +2,19 @@
   "type" : "object",
   "id" : "SIONodeRemoveData.jsd",
   "properties" : {
-    "scaleio_interface" : {
+    "scaleioInterface" : {
       "type" : "string"
     },
-    "scaleio_volume_name" : {
+    "scaleioVolumeName" : {
       "type" : "string"
     },
-    "mdm_hosts" : {
+    "mdmHosts" : {
       "type" : "string"
     },
-    "sds_hosts" : {
+    "sdsHosts" : {
       "type" : "string"
     },
-    "sdc_hosts" : {
+    "sdcHosts" : {
       "type" : "string"
     }
   }

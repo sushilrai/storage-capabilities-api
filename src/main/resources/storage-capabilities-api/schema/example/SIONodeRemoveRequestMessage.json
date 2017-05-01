@@ -4,14 +4,14 @@
     "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   },
   "sioNodeRemoveData": {
-    "scaleio_interface": "scaleio_interface",
-    "scaleio_volume_name": "scaleio_volume_name",
-    "mdm_hosts": "mdm_hosts",
-    "sds_hosts": "sds_hosts",
-    "sdc_hosts": "sdc_hosts"
+    "scaleioInterface": "scaleio_interface",
+    "scaleioVolumeName": "scaleio_volume_name",
+    "mdmHosts": "mdm_hosts",
+    "sdsHosts": "sds_hosts",
+    "sdcHosts": "sdc_hosts"
   },
-  "api_port_number":"12345",
-  "service_port_number": "234567",
-  "user_name": "test_user",
+  "apiPortNumber":"12345",
+  "servicePortNumber": "234567",
+  "userName": "test_user",
   "password": "password"
 }
