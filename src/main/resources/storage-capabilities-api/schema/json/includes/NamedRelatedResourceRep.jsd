@@ -1,4 +1,5 @@
 {
+  "javaName" : "NamedRelatedResourceRep",
   "type" : "object",
   "id" : "NamedRelatedResourceRep.jsd",
   "properties" : {

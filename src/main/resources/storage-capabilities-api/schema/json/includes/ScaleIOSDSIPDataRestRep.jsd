@@ -1,4 +1,5 @@
 {
+  "javaName" : "ScaleIOSDSIPDataRestRep",
   "type" : "object",
   "id" : "ScaleIOSDSIPDataRestRep.jsd",
   "properties" : {

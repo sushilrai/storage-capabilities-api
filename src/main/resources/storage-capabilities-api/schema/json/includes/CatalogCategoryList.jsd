@@ -1,4 +1,5 @@
 {
+  "javaName" : "CatalogCategoryList",
   "type" : "object",
   "id" : "CatalogCategoryList.jsd",
   "properties" : {

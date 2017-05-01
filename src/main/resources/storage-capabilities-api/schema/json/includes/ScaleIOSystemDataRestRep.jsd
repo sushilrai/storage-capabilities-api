@@ -1,4 +1,5 @@
 {
+  "javaName" : "ScaleIOSystemDataRestRep",
   "type" : "object",
   "id" : "ScaleIOSystemDataRestRep.jsd",
   "properties" : {

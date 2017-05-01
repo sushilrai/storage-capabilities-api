@@ -1,4 +1,5 @@
 {
+  "javaName" : "CatalogServiceList",
   "type" : "object",
   "id" : "CatalogServiceList.jsd",
   "properties" : {

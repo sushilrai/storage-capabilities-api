@@ -1,4 +1,5 @@
 {
+  "javaName" : "Tenant",
   "type" : "object",
   "id" : "Tenant.jsd",
   "properties" : {

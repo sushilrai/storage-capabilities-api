@@ -1,4 +1,5 @@
 {
+  "javaName" : "Parameter",
   "type" : "object",
   "id" : "Parameter.jsd",
   "properties" : {

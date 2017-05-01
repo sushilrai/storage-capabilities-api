@@ -1,4 +1,5 @@
 {
+  "javaName" : "ModelInfo",
   "type" : "object",
   "id" : "ModelInfo.jsd",
   "properties" : {

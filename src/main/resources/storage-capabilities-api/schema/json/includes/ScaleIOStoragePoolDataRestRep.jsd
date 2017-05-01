@@ -1,4 +1,5 @@
 {
+  "javaName" : "ScaleIOStoragePoolDataRestRep",
   "type" : "object",
   "id" : "ScaleIOStoragePoolDataRestRep.jsd",
   "properties" : {

@@ -1,4 +1,5 @@
 {
+  "javaName" : "TieBreakersDataRestRep",
   "type" : "object",
   "id" : "TieBreakersDataRestRep.jsd",
   "properties" : {
