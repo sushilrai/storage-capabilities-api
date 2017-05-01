@@ -1,30 +1,32 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "javaName": "ListStorageRequestMessage",
-    "description": "This message comes from fru-paqx and gets translated into Southbound version of this message",
-    "_meta": {
-       "message":"com.dell.cpsd.list.storage.request",
-       "version":"1.0"
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "ListStorageRequestMessage",
+  "description": "This message comes from fru-paqx and gets translated into Southbound version of this message",
+  "_meta": {
+     "message":"com.dell.cpsd.list.storage.request",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "id" : "ListStorageRequestMessage.jsd",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "includes/MessageProperties.jsd"
     },
-    "properties":{
-       "messageProperties": {
-            "$ref":"includes/MessageProperties.jsd"
-       },
-       "endpoint_url": {
-            "type": "string"
-       },
-       "user_name": {
-            "type": "string"
-       },
-       "password": {
-            "type": "string"
-       }
+    "endpointURL" : {
+      "type" : "string"
     },
-    "required":[
-       "messageProperties",
-       "endpoint_url",
-       "user_name",
-       "password"
-    ]
+    "userName" : {
+      "type" : "string"
+    },
+    "password" : {
+      "type" : "string"
+    }
+  },
+  "required":[
+     "messageProperties",
+     "endpointURL",
+     "userName",
+     "password"
+  ]
 }

@@ -1,11 +1,14 @@
 {
   "type" : "object",
-  "id" : "Reference.jsd",
+  "id" : "SIONodeData.jsd",
   "properties" : {
-    "id" : {
+    "ip" : {
       "type" : "string"
     },
-    "href" : {
+    "user" : {
+      "type" : "string"
+    },
+    "pass" : {
       "type" : "string"
     }
   }

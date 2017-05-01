@@ -1,0 +1,13 @@
+{
+  "type" : "object",
+  "id" : "CatalogServiceList.jsd",
+  "properties" : {
+    "catalog_service" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "NamedRelatedResourceRep.jsd"
+      }
+    }
+  }
+}

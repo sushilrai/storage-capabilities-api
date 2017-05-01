@@ -1,12 +1,9 @@
 {
   "type" : "object",
-  "id" : "ModelInfo.jsd",
+  "id" : "RelatedResourceRep.jsd",
   "properties" : {
     "id" : {
       "type" : "string"
-    },
-    "inactive" : {
-      "type" : "boolean"
     },
     "link" : {
       "type" : "object",

@@ -1,37 +1,24 @@
 {
   "type" : "object",
-  "javaName" : "Parameter",
+  "id" : "Parameter.jsd",
   "properties" : {
     "label" : {
-        "type" : "string",
-        "description": "Label or key for this parameter to an order"
+      "type" : "string"
     },
     "value" : {
-        "type" : "string",
-        "description": "Actual value for this parameter (often times an ID)"
+      "type" : "string"
     },
     "friendlyLabel" : {
-        "type" : "string"
+      "type" : "string"
     },
-    "friendlyValue": {
-        "type": "string",
-        "description": "User friendly text value representing the choice (often the label)"
+    "friendlyValue" : {
+      "type" : "string"
     },
-    "userInput": {
-        "type": "boolean",
-        "default": "true"
+    "userInput" : {
+      "type" : "boolean"
     },
-    "encrypted": {
-        "type": "boolean",
-        "default": "false"
+    "encrypted" : {
+      "type" : "boolean"
     }
-  },
-  "required": [
-    "label",
-    "value",
-    "friendlyLabel",
-    "friendlyValue",
-    "userInput",
-    "encrypted"
-  ]
+  }
 }

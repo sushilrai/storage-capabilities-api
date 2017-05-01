@@ -1,0 +1,22 @@
+{
+  "type" : "object",
+  "id" : "ScaleIODeviceDataRestRep.jsd",
+  "properties" : {
+    "storagePool" : {
+      "type" : "object",
+      "$ref" : "ScaleIOStoragePoolDataRestRep.jsd"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "deviceCurrentPathName" : {
+      "type" : "string"
+    },
+    "storagePoolId" : {
+      "type" : "string"
+    }
+  }
+}

@@ -1,11 +1,11 @@
 {
   "type" : "object",
-  "id" : "Reference.jsd",
+  "id" : "ScaleIOSDSIPDataRestRep.jsd",
   "properties" : {
-    "id" : {
+    "role" : {
       "type" : "string"
     },
-    "href" : {
+    "ip" : {
       "type" : "string"
     }
   }

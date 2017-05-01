@@ -1,16 +1,12 @@
 {
   "type" : "object",
-  "javaName" : "Reference",
+  "id" : "Link.jsd",
   "properties" : {
     "rel" : {
-        "type" : "string"
+      "type" : "string"
     },
     "href" : {
-        "type" : "string"
+      "type" : "string"
     }
-  },
-  "required": [
-    "rel",
-    "href"
-  ]
+  }
 }

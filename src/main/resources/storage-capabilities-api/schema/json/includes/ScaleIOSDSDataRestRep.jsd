@@ -1,0 +1,46 @@
+{
+  "type" : "object",
+  "id" : "ScaleIOSDSDataRestRep.jsd",
+  "properties" : {
+    "protectionDomain" : {
+      "type" : "object",
+      "$ref" : "ScaleIOProtectionDomainDataRestRep.jsd"
+    },
+    "faultSet" : {
+      "type" : "object",
+      "$ref" : "ScaleIOFaultSetDataRestRep.jsd"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "protectionDomainId" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "sdsState" : {
+      "type" : "string"
+    },
+    "port" : {
+      "type" : "string"
+    },
+    "faultSetId" : {
+      "type" : "string"
+    },
+    "deviceList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "ScaleIODeviceDataRestRep.jsd"
+      }
+    },
+    "ipList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "ScaleIOSDSIPDataRestRep.jsd"
+      }
+    }
+  }
+}
