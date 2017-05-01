@@ -14,7 +14,7 @@
     "tieBreakers" : {
       "type": "array",
         "items": {
-          "type": "object"
+          "type": "object",
           "$ref" : "TieBreakersDataRestRep.jsd"
         }
     },
@@ -24,7 +24,7 @@
     "slaves" : {
       "type": "array",
         "items": {
-          "type": "object"
+          "type": "object",
             "$ref" : "SlavesDataRestRep.jsd"
         }
     },
