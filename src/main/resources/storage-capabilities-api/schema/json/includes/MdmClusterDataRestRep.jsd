@@ -12,15 +12,21 @@
       "type" : "string"
     },
     "tieBreakers" : {
-      "type" : "object",
-      "$ref" : "TieBreakersDataRestRep[].jsd"
+      "type": "array",
+        "items": {
+          "type": "object"
+          "$ref" : "TieBreakersDataRestRep.jsd"
+        }
     },
     "name" : {
       "type" : "string"
     },
     "slaves" : {
-      "type" : "object",
-      "$ref" : "SlavesDataRestRep[].jsd"
+      "type": "array",
+        "items": {
+          "type": "object"
+            "$ref" : "SlavesDataRestRep.jsd"
+        }
     },
     "goodReplicasNum" : {
       "type" : "string"
