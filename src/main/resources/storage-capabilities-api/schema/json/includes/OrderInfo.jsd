@@ -41,7 +41,6 @@
       "type": "string",
       "format": "date-time",
       "javaType": "java.util.Date"
-
     },
     "status" : {
       "type" : "string"
