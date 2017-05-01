@@ -1,0 +1,32 @@
+{
+  "type" : "object",
+  "id" : "TieBreakersDataRestRep.jsd",
+  "properties" : {
+    "port" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "versionInfo" : {
+      "type" : "string"
+    },
+    "status" : {
+      "type" : "string"
+    },
+    "ips" : {
+      "type" : "object",
+      "$ref" : "String[].jsd"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "role" : {
+      "type" : "string"
+    },
+    "managementIPs" : {
+      "type" : "object",
+      "$ref" : "String[].jsd"
+    }
+  }
+}

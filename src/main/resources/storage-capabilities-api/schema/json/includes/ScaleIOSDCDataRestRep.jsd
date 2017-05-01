@@ -1,20 +1,20 @@
 {
   "type" : "object",
-  "id" : "SIONodeRemoveData.jsd",
+  "id" : "ScaleIOSDCDataRestRep.jsd",
   "properties" : {
-    "scaleio_interface" : {
+    "id" : {
       "type" : "string"
     },
-    "scaleio_volume_name" : {
+    "name" : {
       "type" : "string"
     },
-    "mdm_hosts" : {
+    "sdcIp" : {
       "type" : "string"
     },
-    "sds_hosts" : {
+    "sdcGuid" : {
       "type" : "string"
     },
-    "sdc_hosts" : {
+    "mdmConnectionState" : {
       "type" : "string"
     }
   }

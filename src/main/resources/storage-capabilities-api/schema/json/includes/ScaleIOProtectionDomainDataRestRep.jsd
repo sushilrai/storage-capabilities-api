@@ -1,0 +1,18 @@
+{
+  "type" : "object",
+  "id" : "ScaleIOProtectionDomainDataRestRep.jsd",
+  "properties" : {
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "systemId" : {
+      "type" : "string"
+    },
+    "protectionDomainState" : {
+      "type" : "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type" : "object",
+  "id" : "MessageProperties.jsd",
+  "properties" : {
+    "timestamp" : {
+      "type" : "object",
+      "$ref" : "Date.jsd"
+    },
+    "correlationId" : {
+      "type" : "string"
+    },
+    "replyTo" : {
+      "type" : "string"
+    }
+  },
+  "required": [
+    "timestamp",
+    "correlationId"
+  ]
+}

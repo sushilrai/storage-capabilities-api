@@ -1,0 +1,57 @@
+{
+  "type" : "object",
+  "id" : "ScaleIOSystemDataRestRep.jsd",
+  "properties" : {
+    "mdmMode" : {
+      "type" : "string"
+    },
+    "primaryMdmActorIpList" : {
+      "type" : "object",
+      "$ref" : "String[].jsd"
+    },
+    "secondaryMdmActorIpList" : {
+      "type" : "object",
+      "$ref" : "String[].jsd"
+    },
+    "tiebreakerMdmIpList" : {
+      "type" : "object",
+      "$ref" : "String[].jsd"
+    },
+    "systemVersionName" : {
+      "type" : "string"
+    },
+    "mdmClusterState" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "installId" : {
+      "type" : "string"
+    },
+    "mdmCluster" : {
+      "type" : "object",
+      "$ref" : "MdmClusterDataRestRep.jsd"
+    },
+    "version" : {
+      "type" : "string"
+    },
+    "sdcList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "ScaleIOSDCDataRestRep.jsd"
+      }
+    },
+    "sdsList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "ScaleIOSDSDataRestRep.jsd"
+      }
+    }
+  }
+}

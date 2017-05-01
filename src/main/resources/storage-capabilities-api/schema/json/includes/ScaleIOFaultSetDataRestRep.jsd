@@ -1,11 +1,14 @@
 {
   "type" : "object",
-  "id" : "Reference.jsd",
+  "id" : "ScaleIOFaultSetDataRestRep.jsd",
   "properties" : {
     "id" : {
       "type" : "string"
     },
-    "href" : {
+    "name" : {
+      "type" : "string"
+    },
+    "protectionDomain" : {
       "type" : "string"
     }
   }

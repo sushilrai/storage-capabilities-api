@@ -1,12 +1,16 @@
 {
   "type" : "object",
-  "id" : "Reference.jsd",
+  "id" : "Tenant.jsd",
   "properties" : {
     "id" : {
       "type" : "string"
     },
-    "href" : {
+    "name" : {
       "type" : "string"
+    },
+    "link" : {
+      "type" : "object",
+      "$ref" : "Link.jsd"
     }
   }
 }
