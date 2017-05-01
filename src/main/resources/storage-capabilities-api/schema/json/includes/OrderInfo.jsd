@@ -34,12 +34,12 @@
     "createdDate" : {
       "type": "string",
       "format": "date-time",
-      "javaType": "java.util.Date",
+      "javaType": "java.util.Date"
     },
     "dateCompleted" : {
       "type": "string",
       "format": "date-time",
-      "javaType": "java.util.Date",
+      "javaType": "java.util.Date"
     },
     "status" : {
       "type" : "string"
