@@ -1,4 +1,5 @@
 {
+  "javaName" : "SIONodeRemoveData",
   "type" : "object",
   "id" : "SIONodeRemoveData.jsd",
   "properties" : {

@@ -1,4 +1,5 @@
 {
+  "javaName" : "ScaleIOProtectionDomainDataRestRep",
   "type" : "object",
   "id" : "ScaleIOProtectionDomainDataRestRep.jsd",
   "properties" : {

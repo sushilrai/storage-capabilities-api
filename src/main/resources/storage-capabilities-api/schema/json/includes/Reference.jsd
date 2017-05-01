@@ -1,4 +1,5 @@
 {
+  "javaName" : "Reference",
   "type" : "object",
   "id" : "Reference.jsd",
   "properties" : {

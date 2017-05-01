@@ -1,4 +1,5 @@
 {
+  "javaName" : "OrderInfo",
   "type" : "object",
   "id" : "OrderInfo.jsd",
   "properties" : {

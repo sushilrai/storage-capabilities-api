@@ -1,4 +1,5 @@
 {
+  "javaName" : "MessageProperties",
   "type": "object",
   "title": "AMQP properties properties",
   "description": "AMQP properties.",

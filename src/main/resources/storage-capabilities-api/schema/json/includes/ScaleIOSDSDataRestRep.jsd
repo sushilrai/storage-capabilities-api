@@ -1,4 +1,5 @@
 {
+  "javaName" : "ScaleIOSDSDataRestRep",
   "type" : "object",
   "id" : "ScaleIOSDSDataRestRep.jsd",
   "properties" : {

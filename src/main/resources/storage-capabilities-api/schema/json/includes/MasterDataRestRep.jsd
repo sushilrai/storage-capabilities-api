@@ -1,4 +1,5 @@
 {
+  "javaName" : "MasterDataRestRep",
   "type" : "object",
   "id" : "MasterDataRestRep.jsd",
   "properties" : {

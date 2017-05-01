@@ -1,4 +1,5 @@
 {
+  "javaName" : "SlavesDataRestRep",
   "type" : "object",
   "id" : "SlavesDataRestRep.jsd",
   "properties" : {
