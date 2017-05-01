@@ -6,16 +6,22 @@
       "type" : "string"
     },
     "primaryMdmActorIpList" : {
-      "type" : "object",
-      "$ref" : "String[].jsd"
+    "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "secondaryMdmActorIpList" : {
-      "type" : "object",
-      "$ref" : "String[].jsd"
+    "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "tiebreakerMdmIpList" : {
-      "type" : "object",
-      "$ref" : "String[].jsd"
+    "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "systemVersionName" : {
       "type" : "string"

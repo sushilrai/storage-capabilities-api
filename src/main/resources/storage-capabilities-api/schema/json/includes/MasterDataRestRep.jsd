@@ -12,8 +12,10 @@
       "type" : "string"
     },
     "ips" : {
-      "type" : "object",
-      "$ref" : "String[].jsd"
+      "type": "array",
+        "items": {
+          "type": "string"
+        }
     },
     "name" : {
       "type" : "string"
@@ -22,8 +24,10 @@
       "type" : "string"
     },
     "managementIPs" : {
-      "type" : "object",
-      "$ref" : "String[].jsd"
+      "type": "array",
+        "items": {
+          "type": "string"
+        }
     }
   }
 }

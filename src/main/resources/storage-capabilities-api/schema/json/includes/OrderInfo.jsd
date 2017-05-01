@@ -32,12 +32,14 @@
       "type" : "string"
     },
     "createdDate" : {
-      "type" : "object",
-      "$ref" : "Date.jsd"
+      "type": "string",
+      "format": "date-time",
+      "javaType": "java.util.Date",
     },
     "dateCompleted" : {
-      "type" : "object",
-      "$ref" : "Date.jsd"
+      "type": "string",
+      "format": "date-time",
+      "javaType": "java.util.Date",
     },
     "status" : {
       "type" : "string"
