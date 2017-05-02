@@ -21,7 +21,14 @@
     },
     "service" : {
       "type" : "object",
-      "$ref" : "Reference.jsd"
+      "properties": {
+        "id": {
+            "type": "string"
+        },
+        "href": {
+            "type": "string"
+        }
+      }
     },
     "executionWindow" : {
       "type" : "string"
@@ -47,7 +54,14 @@
     },
     "execution" : {
       "type" : "object",
-      "$ref" : "Reference.jsd"
+      "properties": {
+        "id": {
+           "type": "string"
+        },
+        "href": {
+           "type": "string"
+        }
+      }
     },
     "parameters" : {
       "type" : "array",
