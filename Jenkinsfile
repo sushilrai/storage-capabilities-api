@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                sh "mvn compile"
+                sh "mvn clean install -DskipTests=true -DskipITs"
             }
         }
         stage('Unit Testing') {
@@ -34,7 +34,7 @@ pipeline {
                 }
             }
             steps {
-                sh "mvn clean deploy"
+                sh "mvn install -DskipTests=true -DskipITs"
             }
         }
         stage('SonarQube Analysis') {
@@ -42,11 +42,6 @@ pipeline {
                 withSonarQubeEnv('SonarQube') { 
                     doSonarAnalysis()    
                 }
-            }
-        }
-        stage('NexB Scan') {
-            steps {
-                doNexbScanning()
             }
         }
         stage('Third Party Audit') {
@@ -57,6 +52,12 @@ pipeline {
         stage('Github Release') {
             steps {
                 githubRelease()
+            }
+        }
+        stage('NexB Scan') {
+            steps {
+                sh "mvn clean"
+                doNexbScanning()
             }
         }
     }
