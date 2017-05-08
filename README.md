@@ -3,12 +3,35 @@
 # storage-capabilities-api
 ## Description
 ## Documentation
+You can find additional documentation for Project Symphony at [dellemc-symphony.readthedocs.io](https://dellemc-symphony.readthedocs.io).
 ## API overview
+Please refer to
 ## Before you begin
+Make sure the following is installed:
+```
+Apache Maven 3.0.5+
+Java Development Kit (version 8)
+```
 ## Building
-## Packaging
+Run the following command to build this project:
+```bash
+mvn clean install
+```
 ## Deploying
-## Testing
+
+The output of this repository is a jar file.
+
 ## Contributing
+Project Symphony is a collection of services and libraries housed at [GitHub][github].
+Contribute code and make submissions at the relevant GitHub repository level.
+See our documentation for details on how to [contribute][contributing].
 ## Community
-## Licensing
+Reach out to us on Slack [#symphony][slack] channel. Request an invite at [{code}Community][codecommunity]
+You can also join [Google Groups][googlegroups] and start a discussion.
+ 
+[slack]: https://codecommunity.slack.com/messages/symphony
+[googlegroups]: https://groups.google.com/forum/#!forum/dellemc-symphony
+[codecommunity]: http://community.codedellemc.com/
+[contributing]: http://dellemc-symphony.readthedocs.io/en/latest/contributingtosymphony.html
+[github]: https://github.com/dellemc-symphony
+[documentation]: https://dellemc-symphony.readthedocs.io/en/latest/
