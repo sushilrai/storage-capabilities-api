@@ -2,10 +2,11 @@
 [![Build Status](https://travis-ci.org/dellemc-symphony/storage-capabilities-api.svg?branch=master)](https://travis-ci.org/dellemc-symphony/storage-capabilities-api)
 # storage-capabilities-api
 ## Description
+This repository is used to define a data contract in JSON that is agnostic of the Adapter.
 ## Documentation
 You can find additional documentation for Project Symphony at [dellemc-symphony.readthedocs.io](https://dellemc-symphony.readthedocs.io).
 ## API overview
-Please refer to
+Please refer to /src/main/resources/storage-capabilities-api/schema/json.
 ## Before you begin
 Make sure the following is installed:
 ```
