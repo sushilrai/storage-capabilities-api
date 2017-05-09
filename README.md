@@ -17,16 +17,13 @@ Run the following command to build this project:
 ```bash
 mvn clean install
 ```
-## Deploying
-
-The output of this repository is a jar file.
 
 ## Contributing
 Project Symphony is a collection of services and libraries housed at [GitHub][github].
 Contribute code and make submissions at the relevant GitHub repository level.
 See our documentation for details on how to [contribute][contributing].
 ## Community
-Reach out to us on Slack [#symphony][slack] channel. Request an invite at [{code}Community][codecommunity]
+Reach out to us on the Slack [#symphony][slack] channel. Request an invite at [{code}Community][codecommunity].
 You can also join [Google Groups][googlegroups] and start a discussion.
  
 [slack]: https://codecommunity.slack.com/messages/symphony
