@@ -50,11 +50,23 @@ pipeline {
             }
         }
         stage('Github Release') {
+            when {
+                expression {
+                    return env.BRANCH_NAME ==~ /master|release\/.*/
+                }
+            }
+
             steps {
                 githubRelease()
             }
         }
         stage('NexB Scan') {
+            when {
+                expression {
+                    return env.BRANCH_NAME ==~ /master|develop|release\/.*/
+                }
+            }
+
             steps {
                 sh "mvn clean"
                 doNexbScanning()
