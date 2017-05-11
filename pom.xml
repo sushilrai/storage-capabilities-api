@@ -50,8 +50,7 @@
     </dependencyManagement>
 
     <properties>
-        <!-- TODO: Update the version to 0.4.34-->
-        <org.jsonschema2pojo.version>0.4.27</org.jsonschema2pojo.version>
+        <org.jsonschema2pojo.version>0.4.34</org.jsonschema2pojo.version>
     </properties>
 
     <dependencies>
@@ -133,6 +132,7 @@
                             <useCommonsLang3>true</useCommonsLang3>
                             <customAnnotator>com.dell.cpsd.common.contract.enricher.plugins.jsonschema2pojo.MessageAnnotator
                             </customAnnotator>
+                            <sourceSortOrder>FILES_FIRST</sourceSortOrder>
                         </configuration>
                     </execution>
                 </executions>
