@@ -51,6 +51,7 @@
 
     <properties>
         <org.jsonschema2pojo.version>0.4.34</org.jsonschema2pojo.version>
+        <plugin-maven-compiler-version>3.3</plugin-maven-compiler-version>
     </properties>
 
     <dependencies>
@@ -141,6 +142,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>${plugin-maven-compiler-version}</version>
                 <executions>
                     <execution>
                         <id>default-compile</id>
