@@ -3,7 +3,7 @@
   "javaName": "OrderAckMessage",
   "description": "This message comes from the adapter and gets sent to fru-paqx",
   "_meta": {
-     "message":"com.dell.cpsd.list.storage.response",
+     "message":"com.dell.cpsd.coprhd.order.ack",
      "version":"1.0"
   },
   "type" : "object",
