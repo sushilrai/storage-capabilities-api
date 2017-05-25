@@ -4,6 +4,8 @@
     "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   },
   "sioNodeRemoveData": {
+    "scaleioUserName": "scaleio_userName",
+    "scaleioPassword": "scaleio_password",
     "scaleioInterface": "scaleio_interface",
     "scaleioVolumeName": "scaleio_volume_name",
     "mdmHosts": "mdm_hosts",

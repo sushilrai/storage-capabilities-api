@@ -3,6 +3,12 @@
   "type" : "object",
   "id" : "SIONodeRemoveData.jsd",
   "properties" : {
+    "scaleio_userName" : {
+      "type" : "string"
+    },
+    "scaleio_password" : {
+      "type" : "string"
+    },
     "scaleio_interface" : {
       "type" : "string"
     },
