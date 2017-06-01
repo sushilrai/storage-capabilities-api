@@ -23,6 +23,9 @@
     },
     "sdc_hosts" : {
       "type" : "string"
+    },
+    "sdc_volumes" : {
+      "type" : "string"
     }
   }
 }
