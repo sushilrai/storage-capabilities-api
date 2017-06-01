@@ -17,6 +17,13 @@
     },
     "mdmConnectionState" : {
       "type" : "string"
+    },
+    "volumeList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "ScaleIOSDCVolume.jsd"
+      }
     }
   }
 }
