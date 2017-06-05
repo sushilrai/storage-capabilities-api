@@ -1,74 +1,112 @@
 {
-  "javaName" : "OrderInfo",
-  "type" : "object",
-  "id" : "OrderInfo.jsd",
-  "properties" : {
-    "id" : {
-      "type" : "string"
-    },
-    "inactive" : {
-      "type" : "boolean"
-    },
-    "link" : {
-      "type" : "object",
-      "$ref" : "Link.jsd"
-    },
-    "orderNumber" : {
-      "type" : "string"
-    },
-    "submittedBy" : {
-      "type" : "string"
-    },
-    "service" : {
-      "type" : "object",
-      "properties": {
-        "id": {
-            "type": "string"
+    "javaName" : "OrderInfo",
+    "type" : "object",
+    "id" : "OrderInfo.jsd",
+    "properties" : {
+        "order_number" : {
+            "type" : "string"
         },
-        "href": {
-            "type": "string"
-        }
-      }
-    },
-    "executionWindow" : {
-      "type" : "string"
-    },
-    "summary" : {
-      "type" : "string"
-    },
-    "message" : {
-      "type" : "string"
-    },
-    "createdDate" : {
-      "type": "string",
-      "format": "date-time",
-      "javaType": "java.util.Date"
-    },
-    "dateCompleted" : {
-      "type": "string",
-      "format": "date-time",
-      "javaType": "java.util.Date"
-    },
-    "status" : {
-      "type" : "string"
-    },
-    "execution" : {
-      "type" : "object",
-      "properties": {
-        "id": {
-           "type": "string"
+        "date_completed" : {
+            "type": "string",
+            "format": "date-time",
+            "javaType": "java.util.Date"
         },
-        "href": {
-           "type": "string"
+        "execution_window" : {
+            "type" : "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "link" : {
+                    "type" : "object",
+                    "$ref" : "Link.jsd"
+                }
+            }
+        },
+        "message" : {
+            "type" : "string"
+        },
+        "catalog_service" : {
+            "type" : "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "link" : {
+                    "type" : "object",
+                    "$ref" : "Link.jsd"
+                }
+            }
+        },
+        "order_status" : {
+            "type" : "string"
+        },
+        "submitted_by" : {
+            "type" : "string"
+        },
+        "summary" : {
+            "type" : "string"
+        },
+        "tenant" : {
+            "type" : "object",
+            "$ref" : "Tenant.jsd"
+        },
+        "last_updated" : {
+            "type": "string",
+            "format": "date-time",
+            "javaType": "java.util.Date"
+        },
+        "parameters" : {
+            "type" : "array",
+            "items" : {
+                "type" : "object",
+                "$ref" : "Parameter.jsd"
+            }
+        },
+        "name" : {
+            "type" : "string"
+        },
+        "id" : {
+            "type" : "string"
+        },
+        "link" : {
+            "type" : "object",
+            "$ref" : "Link.jsd"
+        },
+        "creation_time" : {
+            "type": "string",
+            "format": "date-time",
+            "javaType": "java.util.Date"
+        },
+        "tags" : {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "inactive" : {
+            "type" : "boolean"
+        },
+        "global" : {
+            "type" : "boolean"
+        },
+        "remote" : {
+            "type" : "boolean"
+        },
+        "vdc" : {
+            "type" : "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "link" : {
+                    "type" : "object",
+                    "$ref" : "Link.jsd"
+                }
+            }
+        },
+        "internal" : {
+            "type" : "boolean"
         }
-      }
-    },
-    "parameters" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "$ref" : "Parameter.jsd"
-      }
     }
-  }
 }

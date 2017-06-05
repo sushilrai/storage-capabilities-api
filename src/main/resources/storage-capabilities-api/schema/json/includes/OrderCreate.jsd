@@ -1,0 +1,20 @@
+{
+  "javaName" : "OrderCreate",
+  "type" : "object",
+  "id" : "OrderCreate.jsd",
+  "properties" : {
+    "tenantId" : {
+      "type" : "string"
+    },
+    "catalog_service" : {
+      "type" : "string"
+    },
+    "parameters" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "Parameter.jsd"
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
     "timestamp": "2010-01-01T12:00:00Z",
     "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   },
-  "sioNodeRemoveData": {
+  "orderCreate": {
     "scaleioUserName": "scaleio_userName",
     "scaleioPassword": "scaleio_password",
     "scaleioInterface": "scaleio_interface",
@@ -12,7 +12,6 @@
     "sdsHosts": "sds_hosts",
     "sdcHosts": "sdc_hosts"
   },
-  "apiPortNumber":"12345",
   "servicePortNumber": "234567",
   "userName": "test_user",
   "password": "password"

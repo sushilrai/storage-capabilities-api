@@ -6,9 +6,6 @@
     "id" : {
       "type" : "string"
     },
-    "name" : {
-      "type" : "string"
-    },
     "link" : {
       "type" : "object",
       "$ref" : "Link.jsd"

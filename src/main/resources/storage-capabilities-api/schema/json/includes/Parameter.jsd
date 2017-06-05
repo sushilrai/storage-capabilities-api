@@ -9,13 +9,13 @@
     "value" : {
       "type" : "string"
     },
-    "friendlyLabel" : {
+    "friendly_label" : {
       "type" : "string"
     },
-    "friendlyValue" : {
+    "friendly_value" : {
       "type" : "string"
     },
-    "userInput" : {
+    "user_input" : {
       "type" : "boolean"
     },
     "encrypted" : {

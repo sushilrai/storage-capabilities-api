@@ -13,14 +13,11 @@
       "type" : "object",
       "$ref" : "includes/MessageProperties.jsd"
     },
-    "sioNodeRemoveData" : {
+    "orderCreate" : {
       "type" : "object",
-      "$ref" : "includes/SIONodeRemoveData.jsd"
+      "$ref" : "includes/OrderCreate.jsd"
     },
     "ipAddress" : {
-      "type" : "string"
-    },
-    "apiPortNumber" : {
       "type" : "string"
     },
     "servicePortNumber" : {
@@ -35,8 +32,7 @@
   },
   "required":[
      "messageProperties",
-     "sioNodeRemoveData",
-     "apiPortNumber",
+     "orderCreate",
      "servicePortNumber",
      "userName",
      "password"
