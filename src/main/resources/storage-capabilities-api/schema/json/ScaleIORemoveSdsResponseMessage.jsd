@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "ScaleIORemoveSdsResponseMessage",
+  "description": "This message is the response for sio sds removal",
+  "_meta": {
+     "message":"com.dell.cpsd.sio.sds.remove.response",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "id" : "ScaleIORemoveSdsResponseMessage.jsd",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "includes/MessageProperties.jsd"
+    },
+    "removed" : {
+      "type" : "boolean"
+    },
+    "sdsId" : {
+      "type" : "string"
+    }
+  },
+  "required":[
+     "messageProperties",
+     "removed",
+     "sdsId"
+  ]
+}

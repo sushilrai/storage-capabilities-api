@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "SIOGatewayAckMessage",
+  "description": "This message comes from the adapter and gets sent to fru-paqx",
+  "_meta": {
+     "message":"com.dell.cpsd.coprhd.sio.gateway.ack",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "id" : "SIOGatewayAckMessage.jsd",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "includes/MessageProperties.jsd"
+    },
+    "status" : {
+      "type" : "string"
+    },
+    "sioObjectId" : {
+      "type" : "string"
+    }
+  }
+}

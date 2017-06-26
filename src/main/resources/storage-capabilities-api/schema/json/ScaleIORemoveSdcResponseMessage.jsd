@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "ScaleIORemoveSdcResponseMessage",
+  "description": "This message is the response for sio sdc removal",
+  "_meta": {
+     "message":"com.dell.cpsd.sio.sdc.remove.response",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "id" : "ScaleIORemoveSdcResponseMessage.jsd",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "includes/MessageProperties.jsd"
+    },
+    "removed" : {
+      "type" : "boolean"
+    },
+    "sdcId" : {
+      "type" : "string"
+    }
+  },
+  "required":[
+     "messageProperties",
+     "removed",
+     "sdcId"
+  ]
+}
