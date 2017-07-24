@@ -29,8 +29,6 @@
   "required":[
      "messageProperties",
      "endpointURL",
-     "userName",
-     "password",
      "sdcId"
   ]
 }

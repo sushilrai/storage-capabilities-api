@@ -33,8 +33,6 @@
   "required":[
      "messageProperties",
      "orderCreate",
-     "servicePortNumber",
-     "userName",
-     "password"
+     "servicePortNumber"
   ]
 }
