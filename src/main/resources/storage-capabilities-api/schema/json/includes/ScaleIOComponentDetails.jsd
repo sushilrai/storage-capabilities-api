@@ -1,7 +1,6 @@
 {
   "javaName" : "ScaleIOComponentDetails",
   "type" : "object",
-  "id" : "ScaleIOComponentDetails.jsd",
   "properties" : {
     "componentUuid" : {
       "type" : "string"
@@ -12,10 +11,18 @@
     },
     "elementType" : {
       "type" : "string"
+    },
+    "endpoints": {
+      "type": "array",
+      "items": {
+        "$ref": "ScaleIoEndpointDetails.jsd",
+        "type": "object"
+      }
     }
   },
   "required" : [
       "componentUuid",
-      "elementType"
+      "elementType",
+      "endpoints"
     ]
 }

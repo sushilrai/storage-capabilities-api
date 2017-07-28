@@ -21,9 +21,19 @@
     },
     "password" : {
       "type" : "string"
+    },
+    "componentUuid": {
+      "type": "string"
+    },
+    "endpointUuid": {
+      "type": "string"
+    },
+    "credentialUuid": {
+      "type": "string"
     }
   },
   "required":[
-     "messageProperties"
+     "messageProperties",
+     "endpointURL"
   ]
 }

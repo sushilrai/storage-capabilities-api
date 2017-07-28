@@ -16,7 +16,7 @@
     "type" : {
       "type" : "string"
     },
-    "scaleIOComponentDetails" : {
+    "components" : {
       "type" : "array",
       "items": {
         "type" : "object",
@@ -25,6 +25,8 @@
     }
   },
   "required":[
-    "messageProperties"
+    "messageProperties",
+    "components",
+    "type"
   ]
 }

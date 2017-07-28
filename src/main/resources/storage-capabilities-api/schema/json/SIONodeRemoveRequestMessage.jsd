@@ -28,11 +28,18 @@
     },
     "password" : {
       "type" : "string"
+    },
+    "componentUuid": {
+      "type": "string"
+    },
+    "endpointUuid": {
+      "type" : "string"
     }
   },
   "required":[
      "messageProperties",
      "orderCreate",
-     "servicePortNumber"
+     "servicePortNumber",
+     "ipAddress"
   ]
 }

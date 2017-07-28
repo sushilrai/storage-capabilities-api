@@ -24,10 +24,17 @@
     },
     "sdsId" : {
       "type" : "string"
+    },
+    "componentUuid": {
+      "type": "string"
+    },
+    "endpointUuid": {
+      "type" : "string"
     }
   },
   "required":[
      "messageProperties",
-     "sdsId"
+     "sdsId",
+     "endpointURL"
   ]
 }
