@@ -34,6 +34,9 @@
     },
     "endpointUuid": {
       "type" : "string"
+    },
+    "credentialUuid":{
+      "type": "string"
     }
   },
   "required":[
