@@ -1,0 +1,84 @@
+{
+  "javaName" : "sdsConfiguration",
+  "type" : "object",
+  "id" : "sdsConfiguration.jsd",
+  "properties" : {
+    "node" : {
+      "type" : "object",
+      "$ref" : "InstallationManagerNode.jsd"
+    },
+    "nodeInfo" : {
+      "type" : "string"
+    },
+    "rollbackVersion" : {
+      "type" : "string"
+    },
+    "sdsName" : {
+      "type" : "string"
+    },
+    "protectionDomain" : {
+      "type" : "string"
+    },
+    "protectionDomainId" : {
+      "type" : "string"
+    },
+    "faultSet" : {
+      "type" : "string"
+    },
+    "allIPs" : {
+      "type": "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "sdsOnlyIPs" : {
+      "type": "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "sdcOnlyIPs" : {
+      "type": "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "devices" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "InstallationManagerStorageDevice.jsd"
+      }
+    },
+    "rfCached" : {
+      "type" : "boolean"
+    },
+    "rfCachedPools" : {
+      "type": "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "rfCachedDevices" : {
+      "type": "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "useRmCache" : {
+      "type" : "boolean"
+    },
+    "optimized" : {
+      "type" : "boolean"
+    },
+    "optimizedNumOfIOBufs" : {
+      "type" : "integer"
+    },
+    "port" : {
+      "type" : "integer"
+    },
+    "id" : {
+      "type" : "string"
+    }
+  }
+}

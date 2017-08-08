@@ -1,0 +1,16 @@
+{
+  "javaName" : "InstallationManagerStorageDevice",
+  "type" : "object",
+  "id" : "InstallationManagerStorageDevice.jsd",
+  "properties" : {
+    "devicePath" : {
+      "type" : "string"
+    },
+    "storagePool" : {
+      "type" : "string"
+    },
+    "deviceName" : {
+      "type" : "string"
+    }
+  }
+}

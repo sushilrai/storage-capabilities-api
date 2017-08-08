@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "InstallationConfiguration",
+  "description": "ScaleIO Installation Manager installation topology and configuration",
+  "_meta": {
+     "message":"com.dell.cpsd.scaleio.installation.configuration",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "id" : "InstallationConfiguration.jsd",
+  "properties" : {
+    "installationId" : {
+      "type":"string"
+    },
+    "mdmIPs" : {
+      "type": "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "mdmUser" : {
+      "type" : "string"
+    },
+    "liaPassword" : {
+      "type" : "string"
+    },
+    "mdmPassword" : {
+      "type" : "string"
+    },
+    "sdsList" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "includes/sdsConfiguration.jsd"
+      }
+    },
+    "callHomeConfiguration" : {
+      "type" : "string"
+    },
+    "remoteSyslogConfiguration" : {
+      "type" : "string"
+    },
+    "securityConfiguration" : {
+      "type" : "object",
+      "$ref" : "includes/InstallationManagerSecurityConfiguration.jsd"
+    },
+    "systemVersionName" : {
+      "type" : "string"
+    },
+    "upgradeRunning" : {
+      "type" : "boolean"
+    },
+    "snmpIp":{
+      "type" : "string"
+    },
+    "safeIPsForLia": {
+      "type" : "string"
+    },
+    "clustered" : {
+      "type" : "boolean"
+    }
+  }
+}
