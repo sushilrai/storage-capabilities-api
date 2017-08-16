@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Ess validate scalo IO storage pool request.",
+  "_meta": {
+    "message": "com.dell.cpsd.list.storage.validateStorageRequest",
+    "version": "1.0"
+  },
+  "properties": {
+    "messageProperties": {
+      "$ref": "includes/MessageProperties.jsd"
+    },
+    "ListStorageResponseMessage": {
+      "$ref": "ListStorageResponseMessage.jsd"
+    }
+  },
+  "required": [
+    "messageProperties",
+    "ListStorageResponseMessage"
+  ]
+}
